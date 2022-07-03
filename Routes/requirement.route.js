@@ -2,7 +2,7 @@ const express = require("express");
 const {
     getAllRequirement,
     createNewRequirement,
-} = require("../controllers/postRequirement.contorller");
+} = require("../controllers/postRequirement.controller");
 
 const router = express.Router();
 
