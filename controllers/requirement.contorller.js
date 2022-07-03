@@ -6,7 +6,7 @@
 // 1. GET All Requirement
 
 const getAllRequirement = (req, res) => {
-    res.status(200).send({ message: "Here is all Recuitemnts" });
+    res.status(200).send({ message: "Here is all Requirement" });
 };
 
 // 2. POST new Requirement
