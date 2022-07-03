@@ -2,7 +2,7 @@ const express = require("express");
 const {
     getAllRequirement,
     createNewRequirement,
-} = require("../controllers/postRequirement.controller");
+} = require("../controllers/requirement.controller");
 
 const router = express.Router();
 
@@ -15,3 +15,4 @@ const router = express.Router();
 router.get("/", getAllRequirement);
 
 router.post("/", createNewRequirement);
+module.exports = router;
